@@ -1,3 +1,9 @@
 <?php
 
-echo PHP_VERSION;
+use App\Core\Foo;
+
+require __DIR__ . '/../vendor/autoload.php';
+
+$foo = new Foo();
+
+echo $foo->bar();

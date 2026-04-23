@@ -1,0 +1,16 @@
+{
+    "name": "sanotsroger/deploy-php",
+    "description": "Deploy App PHP",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Roger Santos",
+            "email": "rogerioantoniodossantos@outlook.com"
+        }
+    ],
+    "require": {}
+}
